@@ -11,16 +11,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 3rem;
-  background-color: transparent; /* make nav blend into hero */
+  padding: 1rem 3rem;
+  background-color: transparent;
   position: absolute;
   width: 100%;
-  top: 0;
+  top: -22%; /* make sure it's actually at the top */
+  left: 0;
   z-index: 2;
 }
 
+.logo img {
+  height: 400px; /* adjust for size */
+  width: auto;
+}
+
+
 .hero {
-  background: url("/img/charitywaterimage.png");
+  background: url("charitywaterimage.png");
   height: 100vh;
   display: flex;
   align-items: center;
